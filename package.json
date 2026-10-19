@@ -8,10 +8,18 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "packageManger": "npm@10.5.2",
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.20",
     "next": "16.2.11",
+    "next-auth": "^5.0.0-beta.32",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
